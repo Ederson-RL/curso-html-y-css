@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hola mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Tipos de selectores -->
+
+    <!-- selectores basicos -->
+
+        <!-- N°1 "id" = "#" -->
+        <h1 id="hola">holaaa</h1>
+    
+        <!-- N°2 "class" = "." -->
+        <div class="world">hola mundo</div>
+
+        <!-- N°3 "solo nombre" = "div" -->
+        <div>div simple</div>
+    
+        <!-- en este ejemplo simplemente reconoce a la etiqueta y el contenido ej:"a [href="papa"]"-->
+        <a href="papa">platzi</a>
+
+    <!-- selectores combinadores -->
+
+        <!-- selectores descendientes = div p -->
+        <div>
+            <p>Hola</p>
+            <p>Nuevo</p>
+            <p>Mundo</p>
+        </div>
+
+        <!-- selector hijo directo = div > p -->
+        <div>
+            <p>platzi</p> 
+            <div>es</div>
+        </div>
+
+        <!-- selector elemento adyacente = div + section -->
+        <div>div +</div>
+        <section>section</section>
+        <div>div +</div>
+        <section>section</section>
+
+        <!-- selector general de hermanos = div ~ p -->
+        <div>ejem</div>
+        <p>hermano</p>
+</body>
+</html>

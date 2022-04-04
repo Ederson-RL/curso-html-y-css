@@ -1,0 +1,60 @@
+/* Tipos de selectores */
+
+/*selectores basicos*/
+
+    /* N°1 "id" = "#" */
+    #hola {
+        color: green;
+        background: blue;
+        font-size: 25px;
+    }
+
+    /* N°2 "class" = "." */
+    .world {
+        margin-top: 0px;
+        color: green;
+        background-color: brown;
+    }
+
+    /* N°3 "solo nombre" = "div" */
+    div{
+        color: green;
+        background: yellowgreen;
+    }
+
+    /*en este ejemplo simplemente reconoce a la etiqueta y el contenido ej:"a [href="papa"]"*/
+    a[href="papa"] {
+        color: green;
+        background: black;
+    }
+
+    /*este selector engloba todo*/
+    * {
+        background: papayawhip;
+    }
+
+/*selectores combinadores*/
+
+    /* selectores descendientes = div p */
+    div p {
+        color: blueviolet;
+        background: blue;
+    }
+
+    /* selectores descendientes = div > p */
+    div > div {
+        color: red;
+        background-color: pink ;
+    }
+
+    /* selector elemento adyacente = div + section */
+    div + section {
+        background: purple;
+    }
+
+    /* selector general de hermanos = div ~ p */
+
+    div ~ p {
+        color: blue;
+        background: red;
+    }

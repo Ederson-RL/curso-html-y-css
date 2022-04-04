@@ -1,0 +1,22 @@
+body{
+    margin-left: 0px;
+}
+
+h1 {
+    background: rgb(24, 235, 119);
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    background: rgb(24, 235, 119);
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+button{
+    background: greenyellow;
+    width: 60px;
+    height: 60px;
+}
