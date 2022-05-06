@@ -1,27 +1,56 @@
 /* flexbox */
-
+/* ------- */
 .contflex{
+   
     display: flex;
     background: rgb(98, 138, 184);
-    justify-content: center;
     height: 150px;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 
 }
 
 .itemflex{
     background: rgb(5, 247, 255);
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30 eipx;
 }
 
 .contflex .itemflex:nth-child(2n + 1){ 
-    background-color: rgb(43, 255, 0);
+    background-color: rgb(9, 255, 0);
 }
 
 
+/* .contflox */
+
+.contflox{
+display: flex;
+justify-content: space-around;
+background: rgb(245, 241, 0) ;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.contflox .itemflox:nth-child(2n){
+display: flex;
+background: red;
+width: 50px;
+height: 50px;
+margin: 10px;
+}
+
+.itemflox:nth-child(2n + 1){
+display: flex;
+background: rgb(139, 20, 219);
+width: 50px;
+height: 50px;
+margin: 10px;
+} 
+
 /* grid */
+
 .container {
     display: grid;
     background: rgb(59, 250, 59);
@@ -55,4 +84,5 @@
     grid-column: 4 / 5;
     grid-row:  4 / 5;
     background: blue;
-}
+}  
+
