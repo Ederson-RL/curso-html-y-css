@@ -1,0 +1,133 @@
+
+#container{
+    background-color: rgb(241, 184, 131);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+
+    
+}
+
+/* items de arriba a la izquierda */
+
+.item5L{
+    background-color: rgb(255, 23, 7);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.item4L{
+    background-color: rgb(255, 241, 47);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.item3L{
+    background-color: rgb(29, 175, 16);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+.item2L{
+    background: rgb(58, 3, 255);
+    width: 40px;
+    height: 40px; 
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+}
+
+.item1L{
+    background-color: rgb(122, 17, 90);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+/* imtems de arriba a la derecha */
+
+.item5R{
+    background-color: rgb(255, 23, 7);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    
+}
+
+.item4R{
+    background-color: rgb(255, 241, 47);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    
+}
+
+.item3R{
+    background-color: rgb(29, 175, 16);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    
+}
+
+
+.item2R{
+    background: rgb(58, 3, 255);
+    width: 40px;
+    height: 40px;
+    right: 0;
+    position: absolute;
+}
+
+.item1R{
+    background-color: rgb(122, 17, 90);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    
+}
+
+
+
+
+
+
+nav {
+    background: aqua;
+    position: fixed;
+    width: 500px;
+    height: 30px;
+    top: 0%;
+}
+
+ul p {
+    top: 0;
+    position: sticky;
+}
