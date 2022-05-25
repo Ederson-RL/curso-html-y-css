@@ -1,0 +1,126 @@
+.content{
+    display: flex;
+    width: 400px ;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    margin:10%;
+    margin-right: 30px;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 14px 14px 6px 1px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    border: solid 1px black;
+
+}
+
+.contentCover{
+    
+    position: absolute;
+    margin: 10px;
+    width: 95%;
+    height: 130px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 3px;
+    
+}
+
+.imgCover{
+    width: 100%;
+    margin: 0;
+
+
+}
+
+.profilePhoto{
+    position: absolute;
+    width: 80px;
+    border-radius: 100%;
+    z-index: 2;
+    margin: 110px;
+    margin-left: 41%;
+    border:solid 3px white;
+
+
+}
+
+.principalData{
+    
+    display: block;
+    margin-top: 195px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Name{
+    font-weight: 700;
+}
+
+.ocupation{
+    font-family: unset;
+    color: rgb(82, 82, 82);
+
+}
+
+.buttons{
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+
+}
+
+
+.buttons :nth-child(1){
+    margin-right: 0%;
+    margin-bottom: 0;
+    font-size: 15px;
+
+}
+
+.buttons :nth-child(2){
+    margin-left: 0%;
+    margin-bottom: 0;
+    font-size: 15px;
+    
+}
+
+.button{
+    border-radius:4px;
+    width: 50%;
+    height: 60px;
+    border: solid 1px;
+    margin: 10px;
+}
+
+.follow{
+    height: 45px;
+    background-color: rgb(184, 184, 184);
+    margin: 10px;
+    margin-top: 0;
+    font-family: initial;
+    font-size: medium;
+}
+
+.contact{
+    margin-top: 120%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    
+
+}
+
+.contact :nth-child(1){
+
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
